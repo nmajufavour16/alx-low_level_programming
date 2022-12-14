@@ -3,9 +3,9 @@
 
 /**
  * print_to_98 - print all the numbers from input to 98
- * n: number input
+ * @n: number input
  */
-void print_to_98(int n)
+void print_to_98(int)
 {
 	if (n > 98)
 	{
@@ -19,4 +19,6 @@ void print_to_98(int n)
 			printf("%d, ", n++);
 		printf("%d\n", n);
 	}
+	else (n == 98)
+		return (98);
 }
