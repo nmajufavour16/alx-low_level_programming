@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - print all the numbers from input to 98
- * @n: number input
+ * n: number input
  */
 void print_to_98(int n)
 {
